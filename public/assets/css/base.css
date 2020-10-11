@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import 'base.css';
 @import 'layout.css';
-@import 'modules.css'; */
-
+@import 'modules.css';  */
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
@@ -211,14 +210,16 @@ input, select, textarea {
 
 	br.clear {
 		clear: both;
-    }
+	}
+	
+	#top header {
+		color:rgb(4, 34, 4);
+		font-family: 'Merriweather', serif;
+	  }
+	  
+	  #portfolio .container #portfolioP {
+		color: darkblue;
+		font-family: 'Bree Serif', serif;
+	  }
     
-    #top header {
-        color:rgb(4, 34, 4);
-        font-family: 'Merriweather', serif;
-      }
-      
-      #portfolio .container #portfolioP {
-        color: darkblue;
-        font-family: 'Bree Serif', serif;
-      }
+    

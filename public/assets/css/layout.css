@@ -93,7 +93,7 @@
 
     #main > section.one {
       background-color: #81918E;
-      background-image: url("../../images/forest.jpg");
+      background-image: url("../../images/web.jpg");
     }
 
     #main > section.two {
@@ -415,6 +415,15 @@
 /* Mobile */
 
 @media screen and (max-width: 736px) {
+
+  #headerToggle {
+    visibility: hidden;
+  }
+
+  #header {
+    width: 500px;
+    height: 100%;
+  }
 
   /* Basic */
 
